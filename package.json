@@ -4,11 +4,14 @@
   "description": "Testing out cucumber and node with axios requests for assembly line testing",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "cucumber-js"
   },
   "author": "Allan Oliveira",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.5"
   }
 }
