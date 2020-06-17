@@ -1,0 +1,11 @@
+{
+  "name": "cucumber-node-example",
+  "version": "1.0.0",
+  "description": "Testing out cucumber and node with axios requests for assembly line testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Allan Oliveira",
+  "license": "ISC"
+}
