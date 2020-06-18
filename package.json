@@ -4,7 +4,8 @@
   "description": "Testing out cucumber and node with axios requests for assembly line testing",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js",
+    "test-ci": "cucumber-js --format json:report.json"
   },
   "author": "Allan Oliveira",
   "license": "ISC",

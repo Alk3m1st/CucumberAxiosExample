@@ -1,0 +1,62 @@
+[
+  {
+    "description": "    We want to have confidence the web server is able to serve traffic",
+    "keyword": "Feature",
+    "name": "Is the web server alive?",
+    "line": 1,
+    "id": "is-the-web-server-alive?",
+    "tags": [],
+    "uri": "features\\is_web_server_alive.feature",
+    "elements": [
+      {
+        "id": "is-the-web-server-alive?;web-server-returns-a-200-status-(ok)",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Web Server returns a 200 status (OK)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "we visit the web server root domain",
+            "match": {
+              "location": "features\\step_definitions\\stepdefs.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "we send a HTTP request",
+            "match": {
+              "location": "features\\step_definitions\\stepdefs.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 567000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "we should see a status code of 200",
+            "match": {
+              "location": "features\\step_definitions\\stepdefs.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
