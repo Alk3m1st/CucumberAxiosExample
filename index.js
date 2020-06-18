@@ -1,5 +1,6 @@
 const axios = require('axios');
 
+// Non cucumber example just to test axios can return properties we need to assert on
 axios.interceptors.request.use(function (config) {
     config.metadata = { startTime: new Date()}
     return config;
